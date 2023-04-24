@@ -30,8 +30,8 @@ public class Task2 {
         double end = System.nanoTime();
         double end1 = System.currentTimeMillis();
 
-        System.out.println("\n Время работы в наносекундах = " + (end - begin));
-        System.out.println(" Время работы в милисекундах = " + (end1 - begin1));
+        System.out.println("\n Время работы = " + (end - begin) + " наносекунд");
+        System.out.println(" Время работы = " + (end1 - begin1) + " милисекунд");
 
         begin = System.nanoTime();
         begin1 = System.currentTimeMillis();
@@ -43,8 +43,8 @@ public class Task2 {
 
         end = System.nanoTime();
         end1 = System.currentTimeMillis();
-        System.out.println("\n Время работы в наносекундах = " + (end - begin));
-        System.out.println(" Время работы в милисекундах = " + (end1 - begin1));
+        System.out.println("\n Время работы = " + (end - begin) + " наносекунд");
+        System.out.println(" Время работы = " + (end1 - begin1) + " милисекунд");
     }
 }
 
