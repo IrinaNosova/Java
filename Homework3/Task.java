@@ -51,10 +51,6 @@ public class Task {
         list.addAll(list2);
         System.out.println(list);
 
-        //Создать ArrayList<Integer> и добавить нулевым эллементом ноль 10000 раз.
-        //Повторить пятый пункт но с LinkedList.
-        //Сравнить время работы пятого и шестого пунктов.
-
         double start = System.currentTimeMillis();
         ArrayList<Integer> list3 = new ArrayList<>();
         for (int b = 0; b < 10001; b++) {
